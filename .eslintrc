@@ -9,7 +9,15 @@
     "document": true
   },
   "rules": {
+    "max-len": [
+      1,
+      {
+        "code": 120,
+      }
+    ],
     "linebreak-style": 0,
+    "import/no-unresolved": 1,
+    "import/prefer-default-export": 0,
     "react/jsx-filename-extension": [
       1,
       {
